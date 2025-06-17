@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.outerbox {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(47, 0, 215);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  gap: 10px;
+}
+
+.innerbox {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 228, 23);
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.restartBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgb(200, 7, 7);
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
